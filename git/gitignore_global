@@ -1,0 +1,19 @@
+# .gitignore_global
+# 全局过滤配置文件
+# 添加过滤文件要在新的一行添加，且其后不能有注释，否则过滤失效
+
+# Complied source
+*.class
+*.o
+*.so
+# vim swap file
+*.swp
+# Archives
+*.zip
+*.rar
+*.dmg
+*.iso
+*.tar
+*.gz
+*.bz2
+*.jar
