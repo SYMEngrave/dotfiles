@@ -8,6 +8,8 @@
 *.so
 # vim swap file
 *.swp
+# MACOS
+*.DS_Store
 # Archives
 *.zip
 *.rar
