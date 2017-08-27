@@ -34,7 +34,7 @@ local key2app = {
 }
 
 for key, app in pairs(key2app) do
-    hotkey.bind(hyperShift, key, function()
+    hotkey.bind(hyper, key, function()
         toggle_application(app)
     end)
 end
