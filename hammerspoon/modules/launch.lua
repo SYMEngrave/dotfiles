@@ -10,7 +10,7 @@ local key2app = {
     --c = 'Calendar',
     -- d, (system hotkey) Ctrl + Cmd + d => define word
     e = 'Evernote',
-    f = 'Finder',
+    --f = 'Finder',
     --g = 'Mail',
     --h = 'Dash',
     --i = 'iTunes',
@@ -33,12 +33,46 @@ local key2app = {
     --z = '',
 }
 
+local key2app2 = {
+    --a = 'AppCleaner',
+    --b = 'Notes',
+    --c = 'Calendar',
+    -- d, (system hotkey) Ctrl + Cmd + d => define word
+    --e = 'Evernote',
+    f = 'Finder',
+    --g = 'Mail',
+    --h = 'Dash',
+    --i = 'iTunes',
+    --j = 'Google Chrome',
+    --k = 'Preview',
+    --l = 'Dictionary',
+    --m = 'MacDown',
+    --n = 'NeteaseMusic',
+    --o = 'OmniFocus',
+    --p = '1Password',
+    --q = 'App Store',
+    --r = 'Reeder',
+    --s = 'Sublime Text',
+    --t = 'Tweetbot',
+    --u = 'Ulysses',
+    --v = 'Parallels Desktop',
+    --w = 'mpv',
+    --x = 'MATLAB',
+    --y = 'Messages',
+    --z = '',
+}
+
 for key, app in pairs(key2app) do
     hotkey.bind(hyper, key, function()
         toggle_application(app)
     end)
 end
 
+for key, app in pairs(key2app2) do
+    hotkey.bind(hyperShift, key, function()
+        toggle_application(app)
+    end)
+end
 -- hammerspoon console
 hotkey.bind(hyper, "\'", hs.openConsole)
 
