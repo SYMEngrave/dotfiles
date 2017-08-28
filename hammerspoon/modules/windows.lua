@@ -75,10 +75,10 @@ end)
 --}}}
 -- {{{ Multiple Monitors Management
 -- Defines for window grid
---grid.GRIDWIDTH = 3
---grid.GRIDHEIGHT = 3
---grid.MARGINX = 0
---grid.MARGINY = 0
+grid.GRIDWIDTH = 4
+grid.GRIDHEIGHT = 4
+grid.MARGINX = 0
+grid.MARGINY = 0
 
 -- interact with the window grid
 hotkey.bind(hyper, '/', grid.show)
