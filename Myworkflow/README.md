@@ -52,6 +52,7 @@
 | command | description |
 |:--:|:---:|
 | eu | 在欧陆字典中搜索 |
+
 ![image](https://github.com/SYMEngrave/dotfiles/blob/master/Myworkflow/image/SearchInEuDic_example.png?raw=true)
 
 在实际使用中，请将 workflow 中的 script 内容替换为如下内容：
