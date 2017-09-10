@@ -1,6 +1,5 @@
 ## MYworkflow List
 
-[TOC]
 
 #### DS_Store Cleaner 
 | command | description |
@@ -8,7 +7,7 @@
 | ds | 删除 .DS_Store 文件 |
 
 
-![image](/Users/sym/Desktop/屏幕快照 2017-09-10 上午11.18.15.png)
+![image](https://github.com/SYMEngrave/dotfiles/blob/master/Myworkflow/image/DS_Store_Cleanner_example.png?raw=true)
 
 ---
 
