@@ -46,3 +46,22 @@
 | rapp | 根据名称重启应用 |
 
 ![image](https://github.com/SYMEngrave/dotfiles/blob/master/Myworkflow/image/restart_application_example.png?raw=true)
+
+---
+#### SearchInEuDic
+| command | description |
+|:--:|:---:|
+| eu | 在欧陆字典中搜索 |
+![image](https://github.com/SYMEngrave/dotfiles/blob/master/Myworkflow/image/SearchInEuDic_example.png?raw=true)
+
+在实际使用中，请将 workflow 中的 script 内容替换为如下内容：
+```tex
+set the clipboard to "{query}"
+do shell script "open /Applications/Eudb_en_free.app"
+delay 0.2
+tell application "System Events"
+keystroke "a" using {command down}
+keystroke "v" using {command down}
+keystroke return
+end tell
+```
