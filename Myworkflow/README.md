@@ -40,4 +40,9 @@
 
 ---
 
+#### Restarter
+| command | description |
+|:--:|:---:|
+| rapp | 根据名称重启应用 |
 
+![image](https://github.com/SYMEngrave/dotfiles/blob/master/Myworkflow/image/restart_application_example.png?raw=true)
