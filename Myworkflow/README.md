@@ -66,6 +66,8 @@ keystroke "v" using {command down}
 keystroke return
 end tell
 ```
+----
+
 #### Subtitle
 | command | description |
 |:--:|:---:|
