@@ -70,4 +70,5 @@ end tell
 | command | description |
 |:--:|:---:|
 | subtitle | 根据当前 Finder 窗口中的视频搜索字幕（射手网） |
+
 ![image](https://github.com/SYMEngrave/dotfiles/blob/master/Myworkflow/image/subtiltle_example.png?raw=true)
