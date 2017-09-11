@@ -77,7 +77,7 @@ end tell
 
 ----
 
-#### Taobaosearch
+#### Taobaosuggest
 | command | description |
 |:--:|:---:|
 | tb | 根据关键词搜索并在 taobao 网中打开 |
