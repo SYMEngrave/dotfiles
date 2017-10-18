@@ -83,3 +83,11 @@ end tell
 | tb | 根据关键词搜索并在 taobao 网中打开 |
 
 ![image](https://github.com/SYMEngrave/dotfiles/blob/master/Myworkflow/image/taobaosearch_example.png?raw=true)
+
+----
+
+#### hide_desktop
+| command | description |
+|:--:|:---:|
+| dhide | 隐藏桌面 |
+| dunhide | 显示桌面 |
