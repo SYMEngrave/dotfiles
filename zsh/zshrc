@@ -83,3 +83,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias dismaster="sudo spctl --master-disable"
+alias enmaster="sudo spctl --master-enable"
